@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbkg"
+    tools:context="com.swiftqube.guessqube.MainActivity" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#00666666">
+            <Button
+                android:id="@+id/btnProfile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/acc"
+                android:onClick="Profile"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="4dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/btnGuys"
+                android:gravity="center"
+                android:background="@drawable/btn_border2"
+                android:layout_height="50dp"
+                android:layout_width="120dp"
+                android:textStyle="bold"
+                android:text="GUYS"/>
+
+            <Button
+                android:id="@+id/btnLadies"
+                android:gravity="center"
+                android:background="@drawable/btn_border2"
+                android:textStyle="bold"
+                android:layout_height="50dp"
+                android:layout_width="120dp"
+                android:layout_marginLeft="16dp"
+                android:text="LADIES" />
+
+            <Button
+                android:id="@+id/btnBoth"
+                android:background="@drawable/btn_border2"
+                android:textStyle="bold"
+                android:layout_height="50dp"
+                android:layout_width="120dp"
+                android:layout_marginLeft="16dp"
+                android:gravity="center"
+                android:text="BOTH" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnPlaces"
+                android:gravity="center"
+                android:background="@drawable/btn_border2"
+                android:textStyle="bold"
+                android:layout_height="50dp"
+                android:layout_width="120dp"
+                android:scaleType="fitXY"
+                android:text="PLACES"/>
+
+            <Button
+                android:id="@+id/btnComics"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/btn_border2"
+                android:gravity="center"
+                android:text="COMICS"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btnFamous"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/btn_border2"
+                android:gravity="center"
+                android:text="FAMOUS PEOPLE"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnHscore"
+                android:layout_height="40dp"
+                android:layout_width="120dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:background="@drawable/btn_border"
+                android:layout_margin="3dp"
+                android:text="HIGHEST SCORE"/>
+
+            <Button
+                android:id="@+id/btnAbout"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:background="@drawable/btn_border"
+                android:layout_height="40dp"
+                android:layout_width="120dp"
+                android:layout_marginLeft="10dp"
+                android:text="ABOUT GUESSQUBE"/>
+
+            <Button
+                android:id="@+id/btnRewards"
+                android:layout_height="40dp"
+                android:layout_width="120dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:background="@drawable/btn_border3"
+                android:text="REWARDS"/>
+
+            <ImageButton
+                android:id="@+id/btnSound"
+                android:layout_marginLeft="40dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:src="@drawable/snd"
+                android:scaleType="fitXY"
+                android:background="@null"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

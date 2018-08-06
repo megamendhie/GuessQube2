@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GuessQube</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="btnEnter">Enter</string>
+    <string name="createAccount">No account yet? Ok, create one</string>
+    <string name="txtWlcm">Welcome to GuessQube. Login to play</string>
+    <string name="txtOr">--OR--</string>
+
+    <string name="facebook_app_id">459370021163496</string>
+    <string name="fb_login_protocol_scheme">fb459370021163496</string>
+
+</resources>

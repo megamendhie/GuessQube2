@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="170dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.swiftqube.guessqube.PauseActivity" >
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="6dp"
+            android:background="#726CF2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Paused"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btnResume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Resume"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/btnMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Menu"
+                    android:layout_marginRight="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:src="@drawable/frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+</RelativeLayout>
